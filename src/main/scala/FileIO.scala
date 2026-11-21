@@ -4,8 +4,8 @@ object FileIO {
   // Pure function to read subscriptions from a JSON file
   def readSubscriptions(): List[String] = {
     List(
-      "https://www.reddit.com/r/scala/.json?count=10",
-      "https://www.reddit.com/r/learnprogramming/.json?count=10"
+      "http://localhost:8123/r/scala/.json?count=10",
+      "http://localhost:8123/r/programming/.json?count=10"
     )
   }
 
