@@ -1,0 +1,5 @@
+[0m[[0m[0mdebug[0m] [0m[0m[skeleton-build] [zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0m[skeleton-build] IncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0m[skeleton-build] [inv] Initial changes[0m
+[0m[[0m[0mdebug[0m] [0m[0m[inv]   full compilation[0m
+[0m[[0m[0mdebug[0m] [0m[0mwrote ${OUT}/jvm/scala-3.9.0/skeleton-build/classes[0m
