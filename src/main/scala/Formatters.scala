@@ -7,4 +7,13 @@ object Formatters {
     val formattedPosts = posts.take(80)
     header + "\n" + formattedPosts
   }
+
+  def formatPost(subreddit: String, title: String, selftext: String, date: String): String = { 
+    s"""-------------------------------------------------------------------------------- 
+    Subreddit: $subreddit | Fecha: $date 
+    Título: $title 
+    -------------------------------------------------------------------------------- 
+    $selftext 
+    """ 
+  } 
 }
